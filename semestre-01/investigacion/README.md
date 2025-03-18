@@ -1,4 +1,4 @@
-# traidores
+# investigacion
 
 - [clase-01](./clase-01/)
 - [clase-02](./clase-02/)

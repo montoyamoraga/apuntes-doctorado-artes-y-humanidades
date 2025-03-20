@@ -26,3 +26,9 @@ el prefijo trans tiene su complejidad propia, el tránsito está integrado, no q
 transyectoria?
 
 vaivenes / balancín?
+
+mi práctica es de diseño y manufactura de infraestructura para arte electrónico, con énfasis a los instrumentos musicales electrónicos.
+
+esto lo veo como el diseño y construcción de skateparks, de lazos abiertos, que los cierra la persona que transita ese espacio, que usa ese instrumento, que cierra el lazo y lo hace suyo.
+
+Peter Blasser se define como un sintesisista, un sintetizador de sintetizadores.

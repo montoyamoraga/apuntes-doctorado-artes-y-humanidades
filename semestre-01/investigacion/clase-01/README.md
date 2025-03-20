@@ -36,3 +36,15 @@ Peter Blasser se define como un sintesisista, un sintetizador de sintetizadores.
 la transdisciplina tiene que ver con el contacto con lo no controlado, con la emergencia.
 
 la emergencia de emerger, no de oh no un incendio.
+
+hay un margen para lo no programado, sin jerarquías.
+
+investigaciones que tienen que ser desjerarquizadas para lograr ese punto de contacto que es la transdisciplina.
+
+una colega menciona el libro sociología de la imagen, de silvia rivera cusicanqui.
+
+el conocimiento tiene que ver con lo estático? o es fluido? por qué me causa incomodidad la palabra conocimiento? prefiero estrategias, técnicas, aproximaciones, tácticas, teorías, pero no quiero crear ni transmitir conocimiento. por hacer: investigar los orígenes de la palabra y qué se entiende a nivel coloquial y académico por conocimiento.
+
+trans / deriva / aventurar
+
+los circuitos eléctricos tienen una materialidad, un contexto histórico, una manera de entender o de tratar de entender la teoría física, un olor, un lenguaje táctil que ofusca o aclara, la física no alcanza a explicarlo todo, es un objeto cultural multidimensional transdisciplinar.

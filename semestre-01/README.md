@@ -1,7 +1,9 @@
 # semestre-01
 
-este semestre estoy en 3 cursos:
+desde marzo 2025 a julio 2025
 
-- [investigacion](./investigacion/)
-- [mistica-y-musica](./mistica-y-musica/)
-- [traidores](./traidores/)
+este semestre estoy en 3 cursos obligatorios:
+
+- [investigacion](./investigacion/): profesoras carolina pizarro y cynthia shuffer
+- [mistica-y-musica](./mistica-y-musica/): profesor felipe cussen
+- [traidores](./traidores/): profesor josé santos

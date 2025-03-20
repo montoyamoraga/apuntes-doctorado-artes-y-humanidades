@@ -2,7 +2,12 @@
 
 jueves 20 marzo 2025
 
-equipo docente: carolina pizarro Cortés y cynthia shuffer mendoza.
+## equipo docente
+
+- profesora carolina pizarro cortés <https://idea.usach.cl/dra-mar%C3%ADa-carolina-pizarro>
+- profesora cynthia shuffer mendoza <https://www.doctamer.usach.cl/es/cynthia-shuffer-mendoza>
+
+## apuntes de hoy
 
 este curso es para toda la gente del doctorado en IDEA.
 

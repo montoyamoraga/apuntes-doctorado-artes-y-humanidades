@@ -2,7 +2,7 @@
 
 ## acerca de
 
-estos son mis apuntes durante los estudios de Doctorado en Artes y Humanidades, en el Instituto de Estudios Avanzados, de la Universidad de Santiago de Chile (IDEA USACH)
+estos son mis apuntes durante los estudios de Doctorado en Artes y Humanidades, en el Instituto de Estudios Avanzados, de la Universidad de Santiago de Chile (IDEA USACH).
 
 ## subcarpetas
 

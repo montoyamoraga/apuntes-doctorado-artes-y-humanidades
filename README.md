@@ -7,9 +7,9 @@ estos son mis apuntes durante los estudios de Doctorado en Artes y Humanidades, 
 ## subcarpetas
 
 - [semestre-01](./semestre-01/)
-  - [investigacion](./semestre-01/investigacion)
-  - [mistica-y-musica](./semestre-01/mistica-y-musica)
-  - [traidores](./semestre-01/traidores)
+  - [investigacion](./semestre-01/investigacion): investigación y práctica inter y transdisciplinaria
+  - [mistica-y-musica](./semestre-01/mistica-y-musica): mística y música
+  - [traidores](./semestre-01/traidores): traidores
 - [semestre-02](semestre-02)
 - [semestre-03](semestre-03)
 - [semestre-04](semestre-04)

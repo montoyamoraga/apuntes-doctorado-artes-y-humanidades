@@ -17,5 +17,6 @@ un inversor se llama inversor y no traicionador.
 
 qué es una traición electrónica a tu país?
 
-quizás deba hacer un traicionador con un microcontrolador, como parodia a un secuenciador
-.
+quizás deba hacer un traicionador con un microcontrolador, como parodia a un secuenciador.
+
+o incluso usar un sampler / rompler que solamente tenga cargados audios de grandes traiciones de todos los tiempos.

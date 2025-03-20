@@ -78,3 +78,5 @@ lauren lee mccarthy me calmó cuando fui su estudiante en un curso de performanc
 cómo propiciar fugas para llegar a lo liminal donde todo se toca, habitar la frontera.
 
 el coro como un intento de estar en sincronía, pero eso no existe como tal, cada integrante de un coro está en una posición distinta, cada persona que oye el coro escucha algo distinto con sus propios sensores, y eso es hermoso.
+
+investigación como observación acucioso de un objeto o fenómeno. la observación como la celebración de lo subjetivo, que a través del lenguaje podemos transmitir a través de definiciones.

@@ -48,3 +48,7 @@ el conocimiento tiene que ver con lo estático? o es fluido? por qué me causa i
 trans / deriva / aventurar
 
 los circuitos eléctricos tienen una materialidad, un contexto histórico, una manera de entender o de tratar de entender la teoría física, un olor, un lenguaje táctil que ofusca o aclara, la física no alcanza a explicarlo todo, es un objeto cultural multidimensional transdisciplinar.
+
+en mit media lab en los 2010s / 2020s se habla de antidisciplina.
+
+con el grupo de lutheria postdigital de universidad de chile con claudio acuñamos la postdisciplina, en el sentido de que tenemos una disciplina en horario laboral, y después de eso tenemos otra disciplina de horas extra y no paramos nunca oops.

@@ -1,14 +1,3 @@
-# clase-01
-
-martes 18 marzo 2025
-
-durante esta sesión que hablamos de música y mística pensé en quizás hacer un software para el computador norns de <https://monome.org/>.
-
-vi que la matriz de la pantalla de norns mide 124 x 68 pixeles, entonces hice un prototipo en Processing de esta matriz, para pensar en qué información puedo mostrar en esta pantalla.
-
-este es el borrador, que también está adjunto a esta clase, en la subcarpeta norns.
-
-```processing
 // simulador de pantalla de norns
 // por montoyamoraga
 // marzo 2025
@@ -105,8 +94,3 @@ void probarBrillos() {
 void mousePressed() {
   saveFrame("001.jpg");
 }
-```
-
-este es el resultado de correrlo una vez.
-
-![imagen de gradiente de grises con rectángulos aleatorios](./norns/001.jpg)

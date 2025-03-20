@@ -32,3 +32,7 @@ mi práctica es de diseño y manufactura de infraestructura para arte electróni
 esto lo veo como el diseño y construcción de skateparks, de lazos abiertos, que los cierra la persona que transita ese espacio, que usa ese instrumento, que cierra el lazo y lo hace suyo.
 
 Peter Blasser se define como un sintesisista, un sintetizador de sintetizadores.
+
+la transdisciplina tiene que ver con el contacto con lo no controlado, con la emergencia.
+
+la emergencia de emerger, no de oh no un incendio.

@@ -82,3 +82,7 @@ el coro como un intento de estar en sincronía, pero eso no existe como tal, cad
 investigación como observación acucioso de un objeto o fenómeno. la observación como la celebración de lo subjetivo, que a través del lenguaje podemos transmitir a través de definiciones.
 
 el trabajo personal de este curso será usar nuestro interés que tenemos definido hasta ahora como objeto de estudio actual para tesis, lo usaremos para ordenar, sistematizar y abordar estos objetos complejos.
+
+evaluaciones serán de exposiciones orales sobre las matrices de investigación y transdisciplinar.
+
+también una evaluación es un informe final de las reflexiones sobre cómo surje la matriz realizada durante este trabajo.

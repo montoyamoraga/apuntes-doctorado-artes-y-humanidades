@@ -52,3 +52,5 @@ los circuitos eléctricos tienen una materialidad, un contexto histórico, una m
 en mit media lab en los 2010s / 2020s se habla de antidisciplina.
 
 con el grupo de lutheria postdigital de universidad de chile con claudio acuñamos la postdisciplina, en el sentido de que tenemos una disciplina en horario laboral, y después de eso tenemos otra disciplina de horas extra y no paramos nunca oops.
+
+hay prácticas que son sobre objetos encontrados, hay gente trabajando con ausencia y objetos perdidos? todos los objetos son encontrados? depende del origen espaciotemporal.

@@ -66,3 +66,11 @@ input -> transdisciplina -> output
 lo lineal es una aproximación y una promesa.
 
 la promesa de que no hay promesas.
+
+la transdisciplina como la rebeldía de imponerse a los órdenes impuestos, la rebeldía en la transdisciplina es la disciplina?
+
+metodología como desatar, establecer parámetros de fórmulas propias
+
+la ecuación de Newton $$F = m \cdot a$$ funciona bien, pero no es la verdad total, y quizás eso no existe. es importante definir parámetros y alcances modestos y claros para enfrentarse al pánico del infinito o a la angustia de no poder hacer nada.
+
+lauren lee mccarthy me calmó cuando fui su estudiante en un curso de performance, y me angustió el que estuviera todo hecho. me acuerdo que me dijo aunque hagas un homenaje o una copia de otra performance, eso ya es válido e interesante, ya que está tu decisión de elegir esa por sobre otras, además de que es imposible que logres lo mismo, y aunque se vea igual a la original, tu experiencia vital de haber pasado por ese proceso es tuya y única. esto lo aplico en mi obra y también lo comparto con estudiantes cuando se enfrentan a proyectos de tesis.

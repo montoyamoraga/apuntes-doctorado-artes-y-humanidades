@@ -60,3 +60,9 @@ concepto de arte inespecífico, del libro mundos en común, de florencia garramu
 fuzzy logic.
 
 apunte sobre la presentación de martín: la litigación como el arte de defender lo que no entiendo.
+
+input -> transdisciplina -> output
+
+lo lineal es una aproximación y una promesa.
+
+la promesa de que no hay promesas.

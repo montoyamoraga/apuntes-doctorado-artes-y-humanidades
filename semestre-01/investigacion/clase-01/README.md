@@ -20,3 +20,9 @@ aparecen nuevas posibilidades, nuevos sentidos.
 la academia como un espacio de difuminarse.
 
 la impresión 2D no es tal, es 3D porque tiene un grosor, y solamente ignoramos una dimensión, e incluso es 4D, porque también el tiempo transcurre y la entropía hace lo suyo y lo muta.
+
+el prefijo trans tiene su complejidad propia, el tránsito está integrado, no quiere decir una fusión completa, es una trayectoria.
+
+transyectoria?
+
+vaivenes / balancín?

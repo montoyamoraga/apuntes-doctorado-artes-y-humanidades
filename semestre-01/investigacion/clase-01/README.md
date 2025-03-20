@@ -86,3 +86,5 @@ el trabajo personal de este curso será usar nuestro interés que tenemos defini
 evaluaciones serán de exposiciones orales sobre las matrices de investigación y transdisciplinar.
 
 también una evaluación es un informe final de las reflexiones sobre cómo surje la matriz realizada durante este trabajo.
+
+proxima semana es el congreso liminal de idea usach, lo más probable es que en vez de clases vayamos a las mesas de discusión de ese evento.

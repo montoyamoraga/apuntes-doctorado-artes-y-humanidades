@@ -24,3 +24,13 @@ canto 07, altazor, vicente huidobro
 si parece que hay un sistema
 
 buscar tesis de megumi andrade sobre otras escrituras
+
+artista mirtha dermisache
+
+glosolalia
+
+uncanny valley
+
+alegoría
+
+cómo hacer un generador de envolventes a partir de las olas de mar que me importan.

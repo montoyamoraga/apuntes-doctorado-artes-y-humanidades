@@ -86,3 +86,7 @@ la causalidad no está en el mundo, la ponen los humanos
 estudiar Kant, renunciar a conocer las cosas en sí mismas
 
 la verdad sobre el mundo entonces no es posible
+
+dualidades cuerpo y espíritu
+
+cuándo viviremos con la conciencia completa de que somos un todo.

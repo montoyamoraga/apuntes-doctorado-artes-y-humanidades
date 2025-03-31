@@ -61,3 +61,10 @@ por definir: máquina
 por definir: electrónica
 
 por definir: traición electrónica
+
+cuál es la diferencia entre error y traición a nivel electrónico?
+
+* un secuenciador en quien confías en el ritmo, te promete mantenerlo, y luego no lo cumple, se atrasa o se demora.
+* un secuenciador que no traicione, sino que abandone, que por negligencia no funcione, o estudiar en grandes periodos de tiempo, cómo los secuenciadores por sus incapacidades no pueden mantener el ritmo esperado y hacen drift.
+* un sampler en quien deposites tu confianza y no lo haga.
+* ver caso de securedrop y de guardian project, de cómo se confía en un sistema para whistleblowing de periodistas en situaciones de riesgo.

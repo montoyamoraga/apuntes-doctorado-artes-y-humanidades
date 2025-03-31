@@ -68,3 +68,21 @@ cuál es la diferencia entre error y traición a nivel electrónico?
 * un secuenciador que no traicione, sino que abandone, que por negligencia no funcione, o estudiar en grandes periodos de tiempo, cómo los secuenciadores por sus incapacidades no pueden mantener el ritmo esperado y hacen drift.
 * un sampler en quien deposites tu confianza y no lo haga.
 * ver caso de securedrop y de guardian project, de cómo se confía en un sistema para whistleblowing de periodistas en situaciones de riesgo.
+
+## apuntes durante la clase
+
+afección - afecto - sentimientos
+
+la puerta de los traidores en londres
+
+hacker es un traidor profesional?
+
+treason, traitor, betrayer
+
+solamente conocemos en el espacio y el tiempo, los fenómenos
+
+la causalidad no está en el mundo, la ponen los humanos
+
+estudiar Kant, renunciar a conocer las cosas en sí mismas
+
+la verdad sobre el mundo entonces no es posible

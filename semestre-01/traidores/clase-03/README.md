@@ -90,3 +90,15 @@ la verdad sobre el mundo entonces no es posible
 dualidades cuerpo y espíritu
 
 cuándo viviremos con la conciencia completa de que somos un todo.
+
+## comentarios sobre los temas de investigación
+
+la dialéctica de la ilustración de theodor adorno y max horkheimer, uno de los libros más importantes de la escuela de frankfurt
+
+antes de la ciencias están los mitos que tratan de explicar por qué ocurren los fenómenos
+
+la ilustración supera los mitos, ahora hay una explicación, pero la ilustración también es mito, es solamente un nuevo mito
+
+se puede hacer la pregunta de qué es la traición electrónica, y puede que la respuesta es que no existe. no me tengo que amarrar a tener que mostrar algún caso de traición electrónica.
+
+cómo te traiciona una máquina? qué responsabilidad tiene la persona que crea la máquina?

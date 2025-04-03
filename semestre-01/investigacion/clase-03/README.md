@@ -21,3 +21,7 @@ transdisciplina
 contaminación cruzada
 
 problemática entre vinculación con el medio como una forma de asistencialismo.
+
+la vinculación con el medio es una oportunidad pérdida, ya que se debería llamar vinculación con el completo, un área de mucho mayor interés en Chile.
+
+la vinculación con el medio no me alcanza, quiero más, vinculación con el completo, o incluso vinculación con los 3/4, o 7/8.

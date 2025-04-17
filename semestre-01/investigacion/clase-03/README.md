@@ -1,5 +1,7 @@
 # clase-03
 
+jueves 03 de abril 2025
+
 esta clase analizamos el texto The Oxford Handbook of Interdisciplinarity, en particualr los capítulos 1 y 2 de la primera parte: "A short history of knowledge formations" y "A taxonomy of interdisciplinarity".
 
 algunos conceptos que revisamos en  clases:

@@ -51,3 +51,20 @@ Betrayals and Treason
 Violations of Trust and Loyalty
 Nachman Ben-Yehuda
 2001
+
+## Temas de investigación
+
+* Traición electrónica
+* Traición computacional
+
+## Hipótesis
+
+Se puede traicionar de forma computacional.
+
+## Objetivos principales
+
+1. Definir la traición en el contexto de la computación.
+1. Definir el depósito de confianza en el contexto de la computación.
+1. Definir la ruptura de confianza en el contexto de la computación.
+1. Definir la lealtad en el contexto de la computación.
+1. Definir la ruptura de lealtad en el contexto de la computación.

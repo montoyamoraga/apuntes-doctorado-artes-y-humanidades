@@ -2,7 +2,7 @@
 
 ## calendario
 
-| semana | fecha            | lectura | entregas investigación |
+| semana | fecha            | lectura             | entregas investigación |
 | :----- | :--------------- | :------------------ | :--------------------- |
 | 01     | lunes 2025-03-17 | -                   | -                      |
 | 02     | lunes 2025-03-24 | Santos              | -                      |
@@ -14,12 +14,19 @@
 | 08     | lunes 2025-05-05 | Shklar (cap 4)      | -                      |
 | 09     | lunes 2025-05-12 | Tankó               | estructura             |
 | 10     | lunes 2025-05-19 | Jones               | -                      |
-| 11     | lunes 2025-05-26 | lectura             | borrador 1             |
-| 12     | lunes 2025-06-02 | lectura             | -                      |
-| 13     | lunes 2025-06-09 | lectura             | -                      |
-| 14     | lunes 2025-06-16 | lectura             | borrador 2             |
-| 15     | lunes 2025-06-23 | lectura             | -                      |
-| 16     | lunes 2025-06-30 | lectura             | envío                  |
+| 11     | lunes 2025-05-26 |                     | borrador 1             |
+| 12     | lunes 2025-06-02 |                     | -                      |
+| 13     | lunes 2025-06-09 |                     | -                      |
+| 14     | lunes 2025-06-16 |                     | borrador 2             |
+| 15     | lunes 2025-06-23 |                     | -                      |
+| 16     | lunes 2025-06-30 |                     | envío                  |
+
+## enlaces
+
+[informes](./informes/)
+[investigacion](./investigacion/)
+
+clase a clase:
 
 - [clase-01](./clase-01/)
 - [clase-02](./clase-02/)

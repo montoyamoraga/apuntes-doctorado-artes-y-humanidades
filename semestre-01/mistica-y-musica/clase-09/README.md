@@ -2,9 +2,7 @@
 
 martes 13 mayo 2025
 
-## vocabulario daphne oram
-
-### capacitors
+## capacitors
 
 condensadores
 
@@ -16,4 +14,12 @@ es una capacidad de almacenar carga eléctrica.
 
 muy importantes para las envelopes.
 
-### memory - memoria: flip flops
+theremin funciona con capacitancia.
+
+dos placas.
+
+## memoria
+
+memoria
+
+flip flops

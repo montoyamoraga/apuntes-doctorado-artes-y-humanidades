@@ -1,6 +1,6 @@
 # informe-08
 
-Lunes 05 de mayo 2025
+Lunes 12 de mayo 2025
 Laboratorio 2
 Traidores en las dictaduras del cono sur
 Informe de lectura de Aarón Montoya Moraga

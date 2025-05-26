@@ -6,9 +6,9 @@ administración de la traición con computadores
 
 traición electrónica implica agencia de la electrónica. en la electrónica podemos cometer errores, podemos también tener promesas incumplidas, como un cable que nos promete hacer una conexión eléctrica, pero que está roto por dentro y no lo sabemos. Pero no existe la voluntad del dispositivo o material de traicionarnos, no toma la decisión de romper nuestra confianza, por lo que no califica como traición.
 
-traición computacional enfrenta el mismo paradigma
+traición computacional enfrenta el mismo paradigma, el computador trata de cumplir nuestras promesas, pero no siempre lo logra, ya que comete errores, pierde alimentación, o porque creímos haber depositado nuestra confianza en instrucciones claras, pero no lo eran.
 
-1. definición de traición con bibliografía y su manejo en electrónica y computación
+definición de traición con bibliografía y su manejo en electrónica y computación
 
 ## manejo de traición a nivel computacional
 
@@ -68,9 +68,15 @@ el primer prototipo ocurre en una interfaz hecha en Python, con la biblioteca py
 
 el siguiente prototipo es un aparato standalone, con una pantalla LCD y botones y teclado para navegar las traiciones.
 
+Para hardware proponemos un microcontrolador Raspberry Pi Pico 2, basado en el microcontrolador RP2050, de bajo costo y bajo consumo.
+
+Como salida, proponemos una pantalla LCD de 128x64 pixeles, para mostrar texto.
+
 ## conclusiones y pasos a seguir sobre el aparato construido
 
-Esta estructura de datos y sus operaciones.
+Esta estructura de datos y sus operaciones puede ahora ser testeada y mejorada según feedback de los usuarios.
+
+se propone construir una primera versión de los dispositivos físicos.
 
 ## bibliografía
 

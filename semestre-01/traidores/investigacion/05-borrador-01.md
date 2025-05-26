@@ -12,6 +12,8 @@ definición de traición con bibliografía y su manejo en electrónica y computa
 
 ## manejo de traición a nivel computacional
 
+ontología orientada a objetos
+
 los computadores son herramientas que pueden almacenar y procesar datos.
 
 la traición la podemos definir como una estructura de datos, con un conjunto de operaciones para hacer transiciones de estado.

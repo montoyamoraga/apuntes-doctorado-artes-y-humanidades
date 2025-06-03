@@ -2,6 +2,8 @@
 
 martes 03 junio 205
 
+visita a terreno a la iglesia en lastarria, pero no pude ir, llegué directo a la clase a las 3pm.
+
 charla online de invitado luis alvarado
 
 * <https://www.medialab-matadero.es/personal/luis-alvarado>

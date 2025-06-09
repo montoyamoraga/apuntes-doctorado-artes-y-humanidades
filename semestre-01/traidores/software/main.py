@@ -1,9 +1,16 @@
 # importar modulos
 import pygame
 import pygame.freetype
+import json
 
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
+
+data = None
+
+# abrir el archivo JSON
+with open('data.json', 'r') as file:
+    data = json.load(file)
 
 pygame.init()
 window = pygame.display.set_mode((800, 400))

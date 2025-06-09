@@ -1,0 +1,20 @@
+{
+  "traiciones": [
+    {
+      "nombre": "atado",
+      "confianza": "clave de correo",
+      "persona-que-confia": "yo",
+      "persona-en-la-que-confio": "otra",
+      "fecha-confianza-deposito": "2023-10-01",
+      "fecha-confianza-rotura": "2023-10-02"
+    },
+    {
+      "nombre": "otro atado",
+      "confianza": "clave de instagram",
+      "persona-que-confia": "yo",
+      "persona-en-la-que-confio": "otra",
+      "fecha-confianza-deposito": "2024-10-01",
+      "fecha-confianza-rotura": "2024-10-02"
+    }
+  ]
+}

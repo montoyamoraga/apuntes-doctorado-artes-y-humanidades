@@ -1,6 +1,7 @@
 # importar modulos
 import pygame
 import pygame.freetype
+import pygwidgets
 import json
 
 BLACK = (0, 0, 0)
@@ -38,7 +39,6 @@ while run:
     ft_font.render_to(window, (100, 150), 'traicion-01', WHITE)
 
     # print(data['traiciones'][0])
-    
     iterator = 0
 
     for i in data['traiciones'][0]:
@@ -47,7 +47,6 @@ while run:
         ft_font.render_to(window, (100, 200 + iterator*50), i, MAGENTA)
         ft_font.render_to(window, (150, 220 + iterator*50), data['traiciones'][0][i], GREEN)
 
-    
     pygame.display.flip()
 
 pygame.quit()

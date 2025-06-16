@@ -28,7 +28,6 @@ pygame.init()
 ventana = pygame.display.set_mode((ANCHO, ALTURA))
 reloj = pygame.time.Clock()
 
-
 # constantes para los estados
 ESTADO_INICIO = 'inicio'
 ESTADO_NAVEGAR = 'navegar'
@@ -61,7 +60,6 @@ def detectarTecla(event, estado):
         elif event.key == pygame.K_d:
             print('presionaste d')
             return ESTADO_DOCUMENTAR
-
     else:
         return estado
 
@@ -79,7 +77,7 @@ def mostrarSubTitulo(subtitulo):
         ventana,
         (100, 200),
         subtitulo,
-        BLANCO)
+        MAGENTA)
 
 
 def mostrarTexto(texto, posY):
@@ -87,7 +85,7 @@ def mostrarTexto(texto, posY):
         ventana,
         (100, posY),
         texto,
-        BLANCO)
+        VERDE)
 
 
 def mostrarAyuda():
@@ -110,6 +108,11 @@ def mostrarInicio():
     ventana.blit(background, (0, 0))
     mostrarTitulo('administrador de traiciones')
     mostrarSubTitulo(ESTADO_INICIO)
+    mostrarTexto('v0.0.1 junio 2025', 300)
+    mostrarTexto('por montoyamoraga', 400)
+    mostrarTexto('para el curso traidores del profesor josé santos', 500)
+    mostrarTexto('en el doctorado de artes y humanidades', 600)
+    mostrarTexto('en idea usach', 700)
 
 
 def mostrarNavegar():

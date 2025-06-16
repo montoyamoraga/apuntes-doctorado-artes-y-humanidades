@@ -49,15 +49,19 @@ pygame.draw.rect(background, NEGRO, background.get_rect())
 
 def detectarTecla(event, estado):
     if event.type == pygame.KEYDOWN:
-        if event.key == pygame.K_n:
+        if event.key == pygame.K_a:
+            print('presionaste a')
+            return ESTADO_AYUDA
+        if event.key == pygame.K_i:
+            print('presionaste i')
+            return ESTADO_INICIO
+        elif event.key == pygame.K_n:
             print('presionaste n')
             return ESTADO_NAVEGAR
         elif event.key == pygame.K_d:
             print('presionaste d')
             return ESTADO_DOCUMENTAR
-        elif event.key == pygame.K_a:
-            print('presionaste a')
-            return ESTADO_AYUDA
+
     else:
         return estado
 
@@ -78,10 +82,22 @@ def mostrarSubTitulo(subtitulo):
         BLANCO)
 
 
+def mostrarTexto(texto, posY):
+    ft_font.render_to(
+        ventana,
+        (100, posY),
+        texto,
+        BLANCO)
+
+
 def mostrarAyuda():
     ventana.blit(background, (0, 0))
     mostrarTitulo('administrador de traiciones')
     mostrarSubTitulo(ESTADO_AYUDA)
+    mostrarTexto('a: ayuda', 300)
+    mostrarTexto('d: ayuda', 400)
+    mostrarTexto('i: inicio', 500)
+    mostrarTexto('n: ayuda', 600)
 
 
 def mostrarDocumentar():
@@ -121,6 +137,7 @@ while True:
             mostrarNavegar()
             estado = detectarTecla(event, estado)
         else:
+            estado = detectarTecla(event, estado)
             print("whatever")
 
     # ft_font.render_to(ventana, (100, 150), 'traicion-01', BLANCO)

@@ -1,0 +1,30 @@
+# Lint de archivos Markdown
+
+name: markdownlint-cli2-action
+
+# cuando ocurren los siguientes eventos
+on:
+  # cuando hay push en la branch main
+  push:
+    branches:
+      - main
+
+# Un workflow se compone de uno o más jobs que pueden correr en serie o paralelo
+jobs:
+  # Este workflow contiene solamente un job que se llama "markdown-lint"
+  markdown-lint:
+    # corre en una máquina ubuntu
+    runs-on: ubuntu-latest
+
+    # pasos que son parte del job
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: hacer lint
+      uses: DavidAnson/markdownlint-cli2-action@v20.0.0
+      with:
+        fix: true
+        config: 'config/.markdownlint.jsonc'
+        globs: '**/*.md'

@@ -1,20 +1,25 @@
 {
   "traiciones": [
     {
-      "nombre": "atado",
-      "confianza": "clave de correo",
-      "persona-que-confia": "yo",
-      "persona-en-la-que-confio": "otra",
+      "nombre": "clave de correo",
+      "confianza": "clave no será compartida",
+      "quien-confia": "yo",
+      "en-quien-confia": "amigo",
       "fecha-confianza-deposito": "2023-10-01",
-      "fecha-confianza-rotura": "2023-10-02"
+      "fecha-confianza-rotura": "2023-10-02",
+      "fecha-traicion": "2023-10-02",
+      "comentarios": "cambiar clave de correo urgente"
     },
     {
-      "nombre": "otro atado",
-      "confianza": "clave de instagram",
-      "persona-que-confia": "yo",
-      "persona-en-la-que-confio": "otra",
-      "fecha-confianza-deposito": "2024-10-01",
-      "fecha-confianza-rotura": "2024-10-02"
+      "nombre": "prestar plata",
+      "confianza": "plata será devuelta",
+      "quien-confia": "yo",
+      "en-quien-confia": "socio",
+      "fecha-confianza-deposito": "2021-07-01",
+      "fecha-confianza-rotura": "2021-10-02",
+      "fecha-traicion": "2023-10-02",
+      "comentarios": "no volver a prestar plata"
     }
   ]
 }
+

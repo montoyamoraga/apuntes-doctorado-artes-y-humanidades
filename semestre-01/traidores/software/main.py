@@ -7,27 +7,14 @@ import pygame.freetype
 
 # importar modulos creados
 from Administrador import Administrador
+import constantes
 # import Promesa
 # import Traicion
-
-# definir constantes para colores
-NEGRO = (0, 0, 0)
-BLANCO = (255, 255, 255)
-VERDE = (0, 255, 0)
-MAGENTA = (255, 0, 255)
-CYAN = (0, 255, 255)
-
-# definir constantes para pygame
-ANCHO = 800
-ALTURA = 800
-ALTURA_PANEL = 60
-ALTURA_USABLE = ALTURA - ALTURA_PANEL
-CUADROS_POR_SEGUNDO = 30
 
 # iniciar pygame
 pygame.init()
 pygame.display.set_caption('administrador de traiciones')
-ventana = pygame.display.set_mode((ANCHO, ALTURA))
+ventana = pygame.display.set_mode((constantes.ANCHO, constantes.ALTURA))
 reloj = pygame.time.Clock()
 
 # constantes para los estados
@@ -45,7 +32,7 @@ administrador = Administrador()
 ft_font = pygame.freetype.SysFont('monospace', 20)
 
 background = pygame.Surface(ventana.get_size())
-pygame.draw.rect(background, NEGRO, background.get_rect())
+pygame.draw.rect(background, constantes.NEGRO, background.get_rect())
 
 
 def detectarTecla(event, estado):
@@ -84,7 +71,7 @@ def mostrarTitulo(titulo):
         ventana,
         (100, 100),
         titulo,
-        BLANCO)
+        constantes.BLANCO)
 
 
 def mostrarSubTitulo(subtitulo):
@@ -92,7 +79,7 @@ def mostrarSubTitulo(subtitulo):
         ventana,
         (100, 200),
         subtitulo,
-        CYAN)
+        constantes.CYAN)
 
 
 def mostrarTexto(texto, posY):
@@ -100,7 +87,7 @@ def mostrarTexto(texto, posY):
         ventana,
         (100, posY),
         texto,
-        VERDE)
+        constantes.VERDE)
 
 
 def mostrarCampoNombre(texto, posY):
@@ -108,7 +95,7 @@ def mostrarCampoNombre(texto, posY):
         ventana,
         (100, posY),
         texto,
-        VERDE)
+        constantes.VERDE)
 
 
 def mostrarCampoValor(i, posY):
@@ -116,7 +103,7 @@ def mostrarCampoValor(i, posY):
         ventana,
         (400, posY),
         administrador.data['traiciones'][administrador.traicionActiva][i],
-        MAGENTA)
+        constantes.MAGENTA)
 
 
 def mostrarCampoNombreValor(i, posY):

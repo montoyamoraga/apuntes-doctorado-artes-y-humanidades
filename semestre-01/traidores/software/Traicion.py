@@ -9,7 +9,7 @@ class Traicion():
     # constructor
     def __init__(self):
         # nombre de la traicion
-        self.name = "traicion"
+        self.promesa = Promesa()
 
         # sumar 1 al contador
         Traicion.nTraiciones = Traicion.nTraiciones + 1
@@ -18,7 +18,3 @@ class Traicion():
     def __del__(self):
         # restar 1 al contador
         Traicion.nTraiciones = Traicion.nTraiciones - 1
-
-    # definir promesa
-    def setPromesa(self):
-        self.promesa = Promesa()

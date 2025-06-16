@@ -1,11 +1,11 @@
 class Promesa():
-    def __init__(self, ventana):
-        self.ventana = ventana
-        self.nombre = "promesa"
+    def __init__(self, nombre):
+        self.nombre = nombre
         self.fechaPromesa = None
         self.personaEmite = ''
         self.personaRecibe = ''
         self.fechaRotura = None
+        self.comentarios = ''
 
     def getNombre(self):
         return self.nombre
@@ -21,3 +21,24 @@ class Promesa():
 
     def getFechaRotura(self):
         return self.fechaRotura
+
+    def getComentarios(self):
+        return self.comentarios
+
+    def setNombre(self, nombre):
+        self.nombre = nombre
+
+    def setFechaPromesa(self, fecha):
+        self.fechaPromesa = fecha
+
+    def setPersonaEmite(self, persona):
+        self.personaEmite = persona
+
+    def setPersonaRecibe(self, persona):
+        self.personaRecibe = persona
+
+    def setFechaRotura(self, fecha):
+        self.fechaRotura = fecha
+
+    def setComentarios(self, comentarios):
+        self.comentarios = comentarios

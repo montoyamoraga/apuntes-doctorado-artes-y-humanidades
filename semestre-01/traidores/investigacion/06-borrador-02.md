@@ -35,7 +35,7 @@ Hoy en día el flujo de artistas creando máquinas para sus obras tienen varios 
 1. Correr código desde un computador de escritorio o laptop, con sistema operativo GNU/Linux, macOS o Windows.
 1. Correr código en un computador de uso personal dedicado a instalaciones u obra, como una Raspberry Pi, o un Raspberry Pi Computer Module.
   1.1. Ejemplos: computador Norns de monome.
-3. Programar un microcontrolador, Arduino o similar, donde el código corra directamente, sin necesidad de un computador más potente.
+1. Programar un microcontrolador, Arduino o similar, donde el código corra directamente, sin necesidad de un computador más potente.
 
 ## investigación de software relacionado a la traición
 

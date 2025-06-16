@@ -134,6 +134,7 @@ class Administrador():
         self.ventana.blit(self.background, (0, 0))
         self.mostrarTitulo(TITULO)
         self.mostrarSubTitulo(ESTADO_DOCUMENTAR)
+        self.mostrarCampoTraicionActiva(250)
 
     def mostrarInicio(self):
         self.ventana.blit(self.background, (0, 0))
@@ -177,6 +178,5 @@ class Administrador():
                 self.estado = self.detectarTecla(event, self.estado)
             else:
                 self.estado = self.detectarTecla(event, self.estado)
-                # print("whatever")
 
         pygame.display.flip()

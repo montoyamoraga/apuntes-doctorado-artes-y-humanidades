@@ -9,7 +9,7 @@ import pygame.freetype
 
 # importar modulos creados
 from constantes import ANCHO, ALTURA
-from constantes import BLANCO, CYAN, MAGENTA, NEGRO, VERDE
+from constantes import BLANCO, CYAN, MAGENTA, NEGRO, VERDE, AMARILLO
 from constantes import ESTADO_AYUDA, ESTADO_DOCUMENTAR
 from constantes import ESTADO_INICIO, ESTADO_NAVEGAR
 from constantes import TITULO
@@ -65,6 +65,13 @@ class Administrador():
                 if self.traicionActiva >= len(self.traiciones):
                     self.traicionActiva = len(self.traiciones) - 1
                 return estado
+            elif event.key == pygame.K_g:
+                cwd = os.path.dirname(os.path.abspath(__file__))
+                path = cwd + '/grabar.json'
+                with open(path, 'w') as nuevo:
+                    json.dump(self.data, nuevo, sort_keys=True, indent=2)
+                    # sort_keys, indent are optional and used for pretty-write
+
         else:
             return estado
 
@@ -95,6 +102,13 @@ class Administrador():
             (100, posY),
             texto,
             VERDE)
+
+    def mostrarCampoTraicionActiva(self, posY):
+        self.ft_font.render_to(
+                self.ventana,
+                (100, posY),
+                'traicion número ' + str(self.traicionActiva),
+                AMARILLO)
 
     def mostrarCampoValor(self, i, posY):
         self.ft_font.render_to(
@@ -137,6 +151,7 @@ class Administrador():
         self.mostrarTitulo(TITULO)
         self.mostrarSubTitulo(ESTADO_NAVEGAR)
         iterador = 0
+        self.mostrarCampoTraicionActiva(250)
         for i in self.traiciones[self.traicionActiva]:
             iterador = iterador + 1
             self.mostrarCampoNombreValor(i, 300 + iterador * 50)

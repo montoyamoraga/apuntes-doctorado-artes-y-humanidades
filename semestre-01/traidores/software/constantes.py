@@ -4,6 +4,7 @@ BLANCO = (255, 255, 255)
 VERDE = (0, 255, 0)
 MAGENTA = (255, 0, 255)
 CYAN = (0, 255, 255)
+AMARILLO = (255, 255, 0)
 
 # constantes para pygame
 ANCHO = 800

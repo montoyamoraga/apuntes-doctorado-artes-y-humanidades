@@ -26,6 +26,7 @@ CUADROS_POR_SEGUNDO = 30
 
 # iniciar pygame
 pygame.init()
+pygame.display.set_caption('administrador de traiciones')
 ventana = pygame.display.set_mode((ANCHO, ALTURA))
 reloj = pygame.time.Clock()
 
@@ -38,9 +39,6 @@ ESTADO_AYUDA = 'ayuda'
 # variable para estado
 estado = ESTADO_INICIO
 
-# variable para traicionActiva
-traicionActiva = 0
-
 # instanciar administador
 administrador = Administrador()
 
@@ -51,7 +49,6 @@ pygame.draw.rect(background, NEGRO, background.get_rect())
 
 
 def detectarTecla(event, estado):
-    global traicionActiva
     if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_a:
             print('presionaste a')
@@ -66,14 +63,17 @@ def detectarTecla(event, estado):
             print('presionaste d')
             return ESTADO_DOCUMENTAR
         elif event.key == pygame.K_LEFT:
-            traicionActiva = traicionActiva - 1
-            if traicionActiva < 0:
-                traicionActiva = 0
+            administrador.traicionActiva = administrador.traicionActiva - 1
+            if administrador.traicionActiva < 0:
+                administrador.traicionActiva = 0
             return estado
         elif event.key == pygame.K_RIGHT:
-            traicionActiva = traicionActiva + 1
-            if traicionActiva >= len(administrador.data['traiciones']):
-                traicionActiva = len(administrador.data['traiciones']) - 1
+            administrador.traicionActiva = administrador.traicionActiva + 1
+            if administrador.traicionActiva >= len(
+                administrador.data['traiciones']
+            ):
+                administrador.traicionActiva = len(
+                    administrador.data['traiciones']) - 1
             return estado
     else:
         return estado
@@ -115,7 +115,7 @@ def mostrarCampoValor(i, posY):
     ft_font.render_to(
         ventana,
         (400, posY),
-        administrador.data['traiciones'][traicionActiva][i],
+        administrador.data['traiciones'][administrador.traicionActiva][i],
         MAGENTA)
 
 
@@ -156,7 +156,7 @@ def mostrarNavegar():
     mostrarTitulo('administrador de traiciones')
     mostrarSubTitulo(ESTADO_NAVEGAR)
     iterador = 0
-    for i in administrador.data['traiciones'][traicionActiva]:
+    for i in administrador.data['traiciones'][administrador.traicionActiva]:
         iterador = iterador + 1
         mostrarCampoNombreValor(i, 300 + iterador * 50)
 

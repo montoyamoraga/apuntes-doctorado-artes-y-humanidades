@@ -2,13 +2,12 @@
 
 lunes 14 de abril 2025
 
-| semana | fecha            | lectura             | entregas investigación |
+<!-- | semana | fecha            | lectura             | entregas investigación |
 | :----- | :--------------- | :------------------ | :--------------------- |
 | 01     | lunes 2025-03-17 | -                   | -                      |
 | 02     | lunes 2025-03-24 | Santos              | -                      | 1
 | 03     | lunes 2025-03-31 | Jackson             | tema                   | 2
-| 04     | lunes 2025-04-07 | Akerstromm (cap. 1) | -                      | 3
-
+| 04     | lunes 2025-04-07 | Akerstromm (cap. 1) | -                      | 3 -->
 
 Lunes 14 de abril 2025
 Laboratorio 2
@@ -56,7 +55,6 @@ La siguiente sección de "Dirty Hands" indica que los casos de Manning y Snowden
 
 La ambigüedad detrás de los denunciantes políticos está en la percepción pública, donde se expone la diferencia entre ética y moralidad, o dicho en otras palabras, relaciones humanas gruesas o delgadas. El texto termina argumentando que la traición se trata de la ruptura de las relaciones gruesas, esto es, conflictos éticos. (Margalit, 2017, p. 46).
 
- 
 Referencias
 
 On betrayal
@@ -64,4 +62,3 @@ Chapter 02
 The Ambiguities of Betrayal
 Avishai Margalit
 2017
-

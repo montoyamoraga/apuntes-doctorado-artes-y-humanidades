@@ -1,0 +1,57 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+
+% Required for inserting images
+\usepackage{graphicx} 
+
+%Imports biblatex package
+\usepackage{biblatex}
+
+\usepackage[utf8]{inputenc}
+\usepackage{glossaries}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% import the bibliography file
+\addbibresource{investigacion.bib}
+
+\setlength{\parindent}{0pt}
+
+\title{TODO}
+\author{Aarón Montoya-Moraga}
+
+\date{Julio 2025}
+
+\begin{document}
+
+\maketitle
+
+\renewcommand*\contentsname{Tabla de contenidos}
+\tableofcontents
+
+\section{Introducción}
+
+\section{Traición computacional}
+
+
+
+
+\section{Conclusiones y pasos a seguir}
+
+Ejemplos de citas de libros.
+
+Citar libro \cite{automateBoringStuffWithPython}
+
+
+%Prints bibliography
+\printbibliography[title={Bibliografía}, heading=bibintoc]
+
+\end{document}

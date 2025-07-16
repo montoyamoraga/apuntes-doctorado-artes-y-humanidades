@@ -59,6 +59,12 @@ Este dispositivo es una garra mecánica capaz de bajarle sus pantalones en públ
 
 ## diseño y desarrollo de software administrador de traiciones
 
+Antes de crear un computador unipropósito, con toda su complejidad de programar, se decidió por crear un software que permita administrar con una interfaz gráfica y textual.
+
+Se usó la biblioteca pygame para crear la interfaz gráfica.
+
+Se usó una tipografía monoespaciada.
+
 Debido a su flexibilidad de uso y legibilidad, se decidió usar el software Python para el primer prototipo de administrar traiciones.
 
 Luego se propone el porte a C++ para que pueda correr un microcontrolador Raspberry Pi Pico 2.
@@ -97,7 +103,7 @@ Como salida, proponemos una pantalla LCD de 128x64 pixeles, para mostrar texto.
 
 ## conclusiones y pasos a seguir sobre el aparato construido
 
-La primera aproximación de este software fue la investigación de.
+La primera aproximación de este software fue la investigación de
 
 Luego
 

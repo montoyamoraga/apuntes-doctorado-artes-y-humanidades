@@ -1,0 +1,342 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+
+% Required for inserting images
+\usepackage{graphicx} 
+
+\usepackage{listings}
+
+\usepackage[utf8]{inputenc}
+\usepackage{glossaries}
+\usepackage{csquotes}
+\usepackage{parskip}
+
+%Imports biblatex package
+\usepackage{biblatex}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% import the bibliography file
+\addbibresource{traicionBib.bib}
+
+\setlength{\parindent}{0pt}
+
+\title{Una propuesta para la administración computacional de traiciones}
+\author{Aarón Montoya-Moraga}
+
+\date{Julio 2025}
+
+\begin{document}
+
+\maketitle
+
+\renewcommand*\contentsname{Tabla de contenidos}
+
+\tableofcontents
+
+\clearpage
+
+\section{Introducción}
+
+Este documento es el resultado de la investigación que realicé durante el seminario de investigación \textit{Traidores en las dictaduras del cono sur}, dictado por el profesor y doctor José Santos Herceg en IDEA USACH, en el marco del primer semestre del Doctorado de Artes y Humanidades, entre marzo y julio 2025.
+
+La traición es el tema principal de nuestra literatura y nuestra historia \cite[p. 138]{ordinaryVicesShklar}, y en este texto narro la investigación que desarrollé al respecto.
+
+La primera es una aproximación algorítmica desde la ingeniería de software, la segunda es una propuesta de hardware, y la tercera es una app y mínimamente funcional, cuyo mayor avance fue el crear una propuesta de base de datos.
+
+Es mi sueño que la traición y la computación nos permitan lidiar con la traición de formas mas amenas y eficientes.
+
+\clearpage
+
+\section{Definición de traición}
+
+Para definir traición, en este seminario de investigación estudiamos una nutrida bibliografía de autores, entre las que destaco las expuestas aquí.
+
+Åkerström explica en la introducción de su libro \textit{Betrayal and Betrayers: The Sociology of Treachery} , que la razón de escribir esta obra es debido a la importancia del tema y su abandono:
+
+\begin{quote}
+This book is thus an attempt to explore and illuminate a very basic and general social phenomenon that has been neglected.\cite[p. x]{betrayalBetrayersAkerstrom}
+
+\end{quote}
+
+Más adelante Åkerström postula que los eventos que etiquetamos como traiciones implican \textit{breaches of trust} \cite[p. 1]{betrayalBetrayersAkerstrom}, lo que a español podemos traducir como incumplimientos o rupturas de confianza.
+
+Notemos que el concepto \textit{breach} también se usa en contextos computacionales, para indicar vulneraciones de seguridad, como un ataque informático, o una filtración de datos sensibles.
+
+En su tesis doctoral, el autor Jacoby escribe:
+
+\begin{quote}
+In this thesis I analyse the concepts of trust, trustworthiness, and betrayal, and
+explicate the interplay between them. \cite[p. 1]{trustBetrayalJacoby}
+\end{quote}
+
+En esta proposición quiero destacar que la traición no es un concepto que se puede definir de forma aislada, también debemos hacernos cargo de las definiciones de confianza, integridad, entre otros.
+
+Emerge el concepto de \textit{interplay}, que en español podemos  a español como interacciones, pero creo que se pierde en la traducción la partícula \textit{play} de juego. Esta componente lúdica también se pierde en la traducción de actividades artísticas, como en \textit{play the guitar} que se convierte en tocar la guitarra.
+
+Basándome en las lecturas y en mi entendimiento de la traición, la definiré como una coreografía donde dos entidades bailan los siguientes pasos en este orden:
+
+\begin{enumerate}
+    \item La entidad 1 decide que la entidad 2 es digna de su confianza.
+    \item La entidad 1 pide depositar su confianza en la entidad 2.
+    \item La entidad 2 consiente ese depósito y lo recibe.
+    \item La entidad 1 y la entidad 2 se convierten en un nosotres.
+    \item La posibilidad de la traición aparece.
+    \item La entidad 2 rompe la confianza de la entidad 1.
+    \item Aparece la traición, independiente de si la entidad 1 se entera en el momento, más tarde, o incluso nunca.
+\end{enumerate}
+
+Durante este texto trataré a las entidades como personas individuales, no como entidades mayores como estados, naciones, o religiones.
+
+\clearpage
+
+\section{Definición de administración}
+
+En el Diccionario de la Lengua Española, publicado en la web por la Real Academia de la Lengua Española, nos encontramos con 8 distintas acepciones para la palabra "administrar"\cite{administrar}.
+
+Administración es una palabra cargada y ambigua, no se podía esperar mucho más, después de todo es una palabra en un lenguaje.
+
+En el marco de este texto, en particular en el título, habito y me entrego a la ambigüedad del concepto de administración, mezclando y difuminando indistintamente dos acepciones que uso en mi práctica artística:
+
+\begin{enumerate}
+    \item Organización, ordenamiento y disposición de elementos.
+    \item Aplicación, entrega, realización de un acto.
+\end{enumerate}
+
+Esta dualidad se repite en el idioma inglés, que es un idioma muy usado en mi investigación doctoral centrada en electrónica y computación, al ser en este siglo XXI la \textit{lingua franca} en la que se publican y comparten gran parte de los avances, noticias, \textit{papers} y literatura al respecto.
+
+\clearpage
+
+\section{Definición de traición computacional}
+
+La traición computacional la definimos como un subconjunto de la traición, donde la electrónica juega un rol fundamental.
+
+Esto inmediatamente es ambiguo, ya que no hemos definido qué tipo de rol juega la computación, me quiero detener en  2 definiciones posibles:
+
+\begin{enumerate}
+    \item La computación es un medio que apoya o facilita la traición.
+    \item La computación es una de las dos entidades en la traición, ya sea la que deposita la confianza, o la que la recibe.
+\end{enumerate}
+
+Estas dos categorías son difusas en sus límites. Si deposito mi confianza en un sistema computacional, por ejemplo este texto que escribo en un archivo de texto en mi computador, yo deposité mi confianza en que se mantendrá en la memoria del computador. Si este computador falla y corrompe o elimina este archivo, se abren muchas discusiones con argumentos dispares:
+
+\begin{enumerate}
+    \item El computador sí me traicionó, ya que no cumplió con su promesa de cuidar mi archivo.
+    \item El computador no me traicionó, ya que no es una entidad capaz de consentir que yo deposite la confianza en él.
+\end{enumerate}
+
+Postulo en este texto que como la computación por estar en el mundo material es falible y presa de la entropía, y que los agentes computacionales, como un computador, no tienen una voluntad explícita de consentir a que depositemos nuestra confianza en ellos. Por lo tanto solamente podemos hablar de promesas incumplidas por los fabricantes, de cables rotos, de errores en código, pero no de traición.
+
+Con esto, nos quedaremos con la primera definición de traición computacional:
+
+\begin{quote}
+    Traición computacional: una traición entre 2 entidades, donde la computación es un medio que apoya o facilita la traición.
+\end{quote}
+
+\clearpage
+
+\section{Administración de traición computacional}
+
+Los computadores son herramientas que nos permiten almacenar y procesar datos. Estos datos se ordenan en jerarquías entre ellas, y tienen distintas naturalezas, por ejemplo en lenguajes de programación como C o Python, tenemos distintas formas primordiales o primitivas que nos indican el tipo de dato que son capaces de almacenar.
+
+\begin{enumerate}
+    \item boolean: tiene 2 valores posibles: 0 o 1.
+    \item integer: un número entero, positivo, negativo, o 0.
+    \item char: un caracter de texto.
+    \item float: un número con parte decimal.
+\end{enumerate}
+
+Estas partículas fundamentales de la programación son las que nos permiten crear superestructuras más complejas. La primordial en computación recibe el nombre de arreglo o \textit{array} en inglés.
+
+Si quiero almacenar un caracter \textit{a}, puedo crear una variable tipo \textit{char}, con un nombre cualquiera, por ejemplo \textit{letrita}, y asignarle el valordefinir  una variable que contiene una letra puedo escribir código así:
+
+\begin{lstlisting}
+    char letrita = 'a'
+\end{lstlisting}
+
+Dentro de una variable de tipo \textit{char} solamente podemos grabar el valor de un caracter, entonces si queremos tener una variable que contenga una palabra, no es posible con las partículas fundamentales.
+
+Podemos crear una colección de variables, donde podamos agrupar múltiples valores del mismo tipo \textit{char} u otro, esto es un arreglo, por ejemplo:
+
+\begin{lstlisting}
+    char[4] palabrita = 'agua';
+\end{lstlisting}
+
+Así tenemos un nombre ficticio \textit{palabrita}, que es de tipo \textit{char}, donde podemos almacenar 4 valores, y elegimos asignalres los valores consecutivos \textit{a}, \textit{g}, \textit{u}, \textit{a}.,
+
+Este ejemplo ilustra la capacidad de crear superestructuras a partir de estructuras en la computación, lo que podemos escalar luego a bases de datos.
+
+Debido al explosivo aumento y adoptación de la web y la internet como medios de producción y de administración de contenidos, es que distintos formatos de bases de datos han tomado preponderancia, más aún para comunicación entre distintos software y computadores.
+
+Una de las más usadas hoy en día es JSON \cite{json}, que nos permite tener estructuras de objetos con pares de nombre-valor y arreglos para anidar información.
+
+Como hemos definido la traición como una coreografía, con agentes que siguen ciertos pasos, es posible entonces proponer combinaciiones de software y hardrware que use estructuras de bases de datos para poder administrar nuestras traiciones. A continuación las tres propuestas desarrolladas durante el curso.
+
+\clearpage
+
+\section{Exploración 1: biblioteca de Python}
+
+Esta primera exploración recibe el nombre de traicionarpy\cite{traicionarpyGitHub}. Es una biblioteca biblioteca de código, o módulo según la jerga del lenguaje de programación \textit{Python}, y está disponible para su instalación mediante la plataforma pip \cite{traicionarPyPI}.
+
+Esta propuesta es lúdica, ya que PyPI se usa generalmente para proyectos serios y muy usados, siendo el lugar estándar donde se publican bibliotecas de fuente abierta del lenguaje Python, uno de los más usados en la actualidad.
+
+Esta biblioteca fue diseñada de forma \textit{top-down}, en este caso, primero la interfaz y luego su implementación.
+
+Tras la instalación de traicionar.py, podemos usarla con una simple línea de código
+
+\begin{lstlisting}
+    import traicionar
+\end{lstlisting}
+
+Luego de haber importado la biblioteca, es posible usarla mediante comandos como
+
+\begin{lstlisting}
+    traicionar.depositar(confianza)
+    traicionar.quebrar(confianza)
+    traicionar.traicionar()
+\end{lstlisting}
+
+Esta biblioteca la desarrollé con el impulso del inicio del curso, y rápidamente la puse en pausa debido a la complejidad de definir las etapas, subcomponentes y entidades de una traición.
+
+Esta exploración cumple con mis objetivos de doctorado, que incluyen el uso de herramientas industriales y profesionales para la producción de artes electrónicas y computacionales, y queda en pausa por ahora.
+
+Tras bambalinas este proyecto también fue atingente a la traición, ya que para su publicación en PyPI, tuve que recuperar mi cuenta, demostrar mi identidad, seguir una serie de pasos para que ellos depositaran la confianza en mí, de que mi antigua cuenta de hace 10 años era realmente mía, a pesar de haber cambiado mi correo y no haber publicado ni mantenido código en esta plataforma hace  varios años.
+
+\clearpage
+
+\section{Exploración 2: objeto digital basado en microcontrolador}
+
+Tras el abandono de la exploración 1, procedí al diseño de un objeto digital basado en un microcontrolador para la administración de traiciones.
+
+Para llevarla decidí estudiar la placa  Rasberry Pi Pico 2, basada en el microcontrolador RP2050.
+
+
+
+\clearpage
+
+
+\section{Exploración 3: app de Python}
+
+\section{Computadores personales de uso específico}
+
+estado del arte de computadores personales de uso específico
+
+A principios del siglo XX la educación computacional para crear herramientas para artistas y diseñadores era muy limitada, centrándose principalmente en el uso de herramientas de software construidas por la industria.
+
+Gracias al trabajo de Casey Reas y Ben Fry, con su herramienta Processing, creada al alero del laboratorio aesthetics and computation de MIT Media Lab, se logró popularizar el uso de software, para que artistas pudieran crear sus propias herramientas computacionales, bajo el paradigma de este framework de programación en Java.
+
+De hecho Casey Reas fue uno de los co-advisors de la tesis de magíster de Hernando Barragán, quien creó el lenguaje de programación Wiring, que luego tras una traición de otro profesor conformó el proyecto Arduino, que popularizó el uso de microcontroladores para crear máquinas electrónicas.
+
+Revisar el trabajo de Hernando Barragán, <https://arduinohistory.github.io/>
+
+Hoy en día el flujo de artistas creando máquinas para sus obras tienen varios caminos posibles:
+
+1. Correr código desde un computador de escritorio o laptop, con sistema operativo GNU/Linux, macOS o Windows.
+1. Correr código en un computador de uso personal dedicado a instalaciones u obra, como una Raspberry Pi, o un Raspberry Pi Computer Module.
+  1.1. Ejemplos: computador Norns de monome.
+1. Programar un microcontrolador, Arduino o similar, donde el código corra directamente, sin necesidad de un computador más potente.
+
+\section{Traición y software}
+
+\clearpage
+
+\section{Software y hardware para traición}
+
+A nivel de traición con hardware, queremos destacar el trabajo del comediante Nathan Fielder, quien en su programa de televisión "Nathan for You" comisión la creación de un dispositivo llamado The Claw of Shame \cite{clawOfShame}.
+
+Este dispositivo es una garra mecánica capaz de bajarle sus pantalones en público. Su contexto de uso es probar al usuario si es capaz de hacer una destreza y desactivar el dispositivo contra reloj, ya que si el dispositivo se activa, el usuario queda expuesto a la vergüenza pública y las repercusiones legales de estar sin pantaleones en público.
+
+A nivel de traición con software, la revisión bibliográfica arrojó pocos resultados, por lo que decidí enfocar mis esfuerzos en conceptos hermanos, como la confianza.
+
+Quiero destacar la iniciativa Guardian Project \cite{guardianProject}, una colección de softwares publicados para comunicaciones sensibles, riesgosas, en particular para periodistas en situaciones opresivas o de riesgo.
+
+También el protocolo de encriptamiento hecho por Signal \cite{signal}, una fundación y app que propone comunicación encriptada, segura y de fuente abierta.
+
+
+
+La promesa del software SecureDrop es Share and accept documents securely. </>
+
+Traición por parte de SourceForge \cite{sourceForgeWiki} \cite{sourceForgeArs}
+
+\clearpage
+
+\section{Diseño y desarrollo de software administrador de traiciones}
+
+Antes de crear un computador unipropósito, con toda su complejidad de programar, se decidió por crear un software que permita administrar con una interfaz gráfica y textual.
+
+Se usó la biblioteca pygame para crear la interfaz gráfica.
+
+Se usó una tipografía monoespaciada.
+
+Debido a su flexibilidad de uso y legibilidad, se decidió usar el software Python para el primer prototipo de administrar traiciones.
+
+Luego se propone el porte a C++ para que pueda correr un microcontrolador Raspberry Pi Pico 2.
+
+durante esta investigación diseñé clases para definir traicion y otras clases asociadas, con los siguientes atributos y métodos:
+
+atributos:
+
+* nombre
+* fecha de creación
+* fecha de modificación
+* estado (confianzaDepositada, confianzaRetirada, traicion)
+* receptor
+* emisor
+* descripción
+
+metodos:
+
+* depositarConfianza()
+* retirarConfianza()
+* traicionar()
+
+como inspiración usamos los dispositivos computacionales de monome, como norns, y los de Critter and Guitari, como Organelle y Eyesy.
+
+Se propone este administrador de traiciones como un dispositivo que permite a los usuarios registrar y administrar sus traiciones, tanto las recibidas como las emitidas.
+
+Para la visualización se proponen varios métodos:
+
+el primer prototipo ocurre en una interfaz hecha en Python, con la biblioteca pygame.
+
+el siguiente prototipo es un aparato standalone, con una pantalla LCD y botones y teclado para navegar las traiciones.
+
+Para hardware proponemos un microcontrolador Raspberry Pi Pico 2, basado en el microcontrolador RP2050, de bajo costo y bajo consumo.
+
+Como salida, proponemos una pantalla LCD de 128x64 pixeles, para mostrar texto.
+
+\clearpage
+
+\section{Conclusiones y pasos a seguir}
+
+
+La primera aproximación de este software fue la investigación de
+
+Luego
+
+Esta estructura de datos y sus operaciones puede ahora ser testeada y mejorada según feedback de los usuarios.
+
+se propone construir una primera versión de los dispositivos físicos.
+
+Durante mi investigación doctoral me enfoco en diseño y construcción de instrumentos musicales electrónicos y computacionales.
+
+Para defender este lugar transdisciplinar, necesito crear comunidad, por eso con mucha alegría quiero compartir que en 2023 y 2024 en mi rol de profesore asistente participé de la creación de la nueva malla curricular de la Escuela de Diseño de la Universidad Diego Portales. Quiero destacar que creamos la nueva mención de diseño en interacción digital, para abordar los intereses disciplinares locales y mundiales en el diseño de interfaces electrónicas, de experiencias de usuario, de robótica y software.
+
+Esta malla se implementó este 2025, y el próximo año cuando les estudiantes estén en su tercer semestre tendrán un nuevo curso: Pensamiento computacional, donde aprenderán los fundamentos y rudimentos de la programación, a la par de herramientas disciplinares tan importantes como lo son el dibujo, la tipografía y la geometría.
+
+Creo que es fundamental la creación de nuevos espacios curriculares donde les estudiantes se expongan a las artes electrónicas y computacionales, y así existan audiencias locales aún más robustas que sepan apreciar estas prácticas.
+
+Esta práctica transdisciplinar que desarrollo hoy desde Chile en el año 2025 ha sido quizás anecdótica y definitivamente privilegiada, y espero que con mi labor académica y artística pueda ser la norma y con menos barreras, para quien así lo desee.
+
+\clearpage
+
+\printbibliography[title={Bibliografía}, heading=bibintoc]
+
+\end{document}

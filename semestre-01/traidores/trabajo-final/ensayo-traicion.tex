@@ -5,6 +5,8 @@
 % Required for inserting images
 \usepackage{graphicx} 
 
+\usepackage{listings}
+
 \usepackage[utf8]{inputenc}
 \usepackage{glossaries}
 \usepackage{csquotes}
@@ -23,7 +25,7 @@
 }
 
 % import the bibliography file
-\addbibresource{investigacion.bib}
+\addbibresource{traicionBib.bib}
 
 \setlength{\parindent}{0pt}
 
@@ -104,7 +106,6 @@ Administración es una palabra cargada y ambigua, no se podía esperar mucho má
 
 En el marco de este texto, en particular en el título, habito y me entrego a la ambigüedad del concepto de administración, mezclando y difuminando indistintamente dos acepciones que uso en mi práctica artística:
 
-
 \begin{enumerate}
     \item Organización, ordenamiento y disposición de elementos.
     \item Aplicación, entrega, realización de un acto.
@@ -121,7 +122,7 @@ La traición computacional la definimos como un subconjunto de la traición, don
 Esto inmediatamente es ambiguo, ya que no hemos definido qué tipo de rol juega la computación, me quiero detener en  2 definiciones posibles:
 
 \begin{enumerate}
-    \item La computación es un medio por el cual ocurre la traición.
+    \item La computación es un medio que apoya o facilita la traición.
     \item La computación es una de las dos entidades en la traición, ya sea la que deposita la confianza, o la que la recibe.
 \end{enumerate}
 
@@ -137,18 +138,94 @@ Postulo en este texto que como la computación por estar en el mundo material es
 Con esto, nos quedaremos con la primera definición de traición computacional:
 
 \begin{quote}
-    Traición computacional: una traición entre 2 entidades, donde la computación es un medio por el cual ocurre la traición.
+    Traición computacional: una traición entre 2 entidades, donde la computación es un medio que apoya o facilita la traición.
 \end{quote}
 
 \clearpage
 
 \section{Administración de traición computacional}
 
-ontología orientada a objetos
+Los computadores son herramientas que nos permiten almacenar y procesar datos. Estos datos se ordenan en jerarquías entre ellas, y tienen distintas naturalezas, por ejemplo en lenguajes de programación como C o Python, tenemos distintas formas primordiales o primitivas que nos indican el tipo de dato que son capaces de almacenar.
 
-los computadores son herramientas que pueden almacenar y procesar datos.
+\begin{enumerate}
+    \item boolean: tiene 2 valores posibles: 0 o 1.
+    \item integer: un número entero, positivo, negativo, o 0.
+    \item char: un caracter de texto.
+    \item float: un número con parte decimal.
+\end{enumerate}
 
-la traición la podemos definir como una estructura de datos, con un conjunto de operaciones para hacer transiciones de estado.
+Estas partículas fundamentales de la programación son las que nos permiten crear superestructuras más complejas. La primordial en computación recibe el nombre de arreglo o \textit{array} en inglés.
+
+Si quiero almacenar un caracter \textit{a}, puedo crear una variable tipo \textit{char}, con un nombre cualquiera, por ejemplo \textit{letrita}, y asignarle el valordefinir  una variable que contiene una letra puedo escribir código así:
+
+\begin{lstlisting}
+    char letrita = 'a'
+\end{lstlisting}
+
+Dentro de una variable de tipo \textit{char} solamente podemos grabar el valor de un caracter, entonces si queremos tener una variable que contenga una palabra, no es posible con las partículas fundamentales.
+
+Podemos crear una colección de variables, donde podamos agrupar múltiples valores del mismo tipo \textit{char} u otro, esto es un arreglo, por ejemplo:
+
+\begin{lstlisting}
+    char[4] palabrita = 'agua';
+\end{lstlisting}
+
+Así tenemos un nombre ficticio \textit{palabrita}, que es de tipo \textit{char}, donde podemos almacenar 4 valores, y elegimos asignalres los valores consecutivos \textit{a}, \textit{g}, \textit{u}, \textit{a}.,
+
+Este ejemplo ilustra la capacidad de crear superestructuras a partir de estructuras en la computación, lo que podemos escalar luego a bases de datos.
+
+Debido al explosivo aumento y adoptación de la web y la internet como medios de producción y de administración de contenidos, es que distintos formatos de bases de datos han tomado preponderancia, más aún para comunicación entre distintos software y computadores.
+
+Una de las más usadas hoy en día es JSON \cite{json}, que nos permite tener estructuras de objetos con pares de nombre-valor y arreglos para anidar información.
+
+Como hemos definido la traición como una coreografía, con agentes que siguen ciertos pasos, es posible entonces proponer combinaciiones de software y hardrware que use estructuras de bases de datos para poder administrar nuestras traiciones. A continuación las tres propuestas desarrolladas durante el curso.
+
+\clearpage
+
+\section{Exploración 1: biblioteca de Python}
+
+Esta primera exploración recibe el nombre de traicionarpy\cite{traicionarpyGitHub}. Es una biblioteca biblioteca de código, o módulo según la jerga del lenguaje de programación \textit{Python}, y está disponible para su instalación mediante la plataforma pip \cite{traicionarPyPI}.
+
+Esta propuesta es lúdica, ya que PyPI se usa generalmente para proyectos serios y muy usados, siendo el lugar estándar donde se publican bibliotecas de fuente abierta del lenguaje Python, uno de los más usados en la actualidad.
+
+Esta biblioteca fue diseñada de forma \textit{top-down}, en este caso, primero la interfaz y luego su implementación.
+
+Tras la instalación de traicionar.py, podemos usarla con una simple línea de código
+
+\begin{lstlisting}
+    import traicionar
+\end{lstlisting}
+
+Luego de haber importado la biblioteca, es posible usarla mediante comandos como
+
+\begin{lstlisting}
+    traicionar.depositar(confianza)
+    traicionar.quebrar(confianza)
+    traicionar.traicionar()
+\end{lstlisting}
+
+Esta biblioteca la desarrollé con el impulso del inicio del curso, y rápidamente la puse en pausa debido a la complejidad de definir las etapas, subcomponentes y entidades de una traición.
+
+Esta exploración cumple con mis objetivos de doctorado, que incluyen el uso de herramientas industriales y profesionales para la producción de artes electrónicas y computacionales, y queda en pausa por ahora.
+
+Tras bambalinas este proyecto también fue atingente a la traición, ya que para su publicación en PyPI, tuve que recuperar mi cuenta, demostrar mi identidad, seguir una serie de pasos para que ellos depositaran la confianza en mí, de que mi antigua cuenta de hace 10 años era realmente mía, a pesar de haber cambiado mi correo y no haber publicado ni mantenido código en esta plataforma hace  varios años.
+
+\clearpage
+
+\section{Exploración 2: objeto digital basado en microcontrolador}
+
+Tras el abandono de la exploración 1, procedí al diseño de un objeto digital basado en un microcontrolador para la administración de traiciones.
+
+Para llevarla decidí estudiar la placa  Rasberry Pi Pico 2, basada en el microcontrolador RP2050.
+
+
+
+\clearpage
+
+
+\section{Exploración 3: app de Python}
+
+\section{Computadores personales de uso específico}
 
 estado del arte de computadores personales de uso específico
 
@@ -169,26 +246,25 @@ Hoy en día el flujo de artistas creando máquinas para sus obras tienen varios 
 
 \section{Traición y software}
 
-La revisión bibliográfico de softwares que contenga la palabra traición no ha dado resultados.
-
-softwares para administrar confianza.
-
-softwares de uso sensible para periodistas: Proyecto Guardian \cite{guardianProject}
-
-Protocolo de encriptamiento Signal \cite{signal}
-
-La promesa del software SecureDrop es Share and accept documents securely. <https://securedrop.org/>
-
-Traición por parte de SourceForge \cite{sourceForgeWiki} \cite{sourceForgeArs}
-
 \clearpage
 
-\section{Traición y hardware}
-
+\section{Software y hardware para traición}
 
 A nivel de traición con hardware, queremos destacar el trabajo del comediante Nathan Fielder, quien en su programa de televisión "Nathan for You" comisión la creación de un dispositivo llamado The Claw of Shame \cite{clawOfShame}.
 
 Este dispositivo es una garra mecánica capaz de bajarle sus pantalones en público. Su contexto de uso es probar al usuario si es capaz de hacer una destreza y desactivar el dispositivo contra reloj, ya que si el dispositivo se activa, el usuario queda expuesto a la vergüenza pública y las repercusiones legales de estar sin pantaleones en público.
+
+A nivel de traición con software, la revisión bibliográfica arrojó pocos resultados, por lo que decidí enfocar mis esfuerzos en conceptos hermanos, como la confianza.
+
+Quiero destacar la iniciativa Guardian Project \cite{guardianProject}, una colección de softwares publicados para comunicaciones sensibles, riesgosas, en particular para periodistas en situaciones opresivas o de riesgo.
+
+También el protocolo de encriptamiento hecho por Signal \cite{signal}, una fundación y app que propone comunicación encriptada, segura y de fuente abierta.
+
+
+
+La promesa del software SecureDrop es Share and accept documents securely. </>
+
+Traición por parte de SourceForge \cite{sourceForgeWiki} \cite{sourceForgeArs}
 
 \clearpage
 

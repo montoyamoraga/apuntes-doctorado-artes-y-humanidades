@@ -1,6 +1,20 @@
 # Apple
 .DS_Store
 
+# Latex
+*.aux
+*.bcf
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.run.xml
+*synctex.gz
+*.toc
+
 ## Python cache
 __pycache__/
 

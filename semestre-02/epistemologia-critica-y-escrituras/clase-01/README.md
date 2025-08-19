@@ -37,3 +37,14 @@ encontrar una revista indexada
 hacerlo de acuerdo a esa revista en particular
 
 la otra mitad es hacer el ensayo más raro e impublicable que podamos
+
+## tarea
+
+texto crítico favorito
+
+texto crítico: en el que hayan reflexiones que me hayan servido para investigaciones teóricas y prácticas.
+
+ojalá un texto que hayamos citado más de una vez.
+
+<https://arduinohistory.github.io/>
+

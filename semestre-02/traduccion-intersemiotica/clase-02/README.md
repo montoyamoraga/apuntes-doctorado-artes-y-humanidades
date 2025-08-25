@@ -8,6 +8,18 @@ texto: la tarea del traductor
 autor: walter benjamin
 año: 1923
 
+una obra de arte no se realiza para una audiencia en particular, una traducción sí.
+
+la obra original queda suspendida en el tiempo, en su lengua original. pero esta lengua sigue mutando a través de los tiempos, generando una distancia con lo escrito.
+
+cuando se traduce a otro idioma, este idioma también muta, lo que permite que existan muchas traducciones posibles a travñes de los años.
+
+la traducción no niega su orientación hacia una fase final, inapelable y decisiva, no así el arte.
+
+la traducción busca crear un eco en otro lenguaje que se remita al lenguaje original.
+
+autores trabajan de forma natural, primitiva e intuitiva, en cambio traductores trabajan de forma derivada, ideológica y definitiva.
+
 
 
 ## apuntes sobre lectura de texto 2

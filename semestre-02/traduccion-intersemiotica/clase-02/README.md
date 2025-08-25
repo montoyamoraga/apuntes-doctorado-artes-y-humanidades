@@ -2,6 +2,8 @@
 
 lunes 25 agosto 2025
 
+profesora está organizando un simposio de poesía experimental en méxico.
+
 ## apuntes sobre lectura de texto 1
 
 texto: la tarea del traductor

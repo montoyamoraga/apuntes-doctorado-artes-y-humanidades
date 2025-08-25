@@ -16,6 +16,12 @@ la posibilidad de respuesta en la cultura de la recepción
 
 el contexto
 
+el libro de judith butler, sobre el género en disputa, con una portada rosada o fucsia, por tusquets o similar.
+
+every text is eventually the expression of a political unconscious - frederic jameson
+
+facts are never just facts, objects are never just objects, concepts are never just concepts. Facts, objects and concepts acquire meaning only within a semiotic framework, a certain way of looking at the world, a certain ideology - andré lefevere
+
 ## apuntes sobre lectura de texto 1
 
 * texto: la tarea del traductor

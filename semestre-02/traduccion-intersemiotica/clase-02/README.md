@@ -38,6 +38,25 @@ christiane nord: how is that material translated?
 
 peter fawcett: what is omitted, added or altered in order to control the message?
 
+la traducción como utopía
+
+traducción: través
+viene del latín transducere: conducir a través; translatio: llevar a
+
+utopía: no place
+
+la traduccion como llevar algo a un no lugar.
+
+libro recomendado: la utopía de tomás moro.
+
+cuál es la miseria y cuál el esplendor de la traduccion según Ortega y Gasset?
+
+como es imposible la traducción, por eso vale la pena. 
+
+roman jakobson: la poesîa es por definición intraducible. solamente es posible la transposición creativa.
+
+ezra poound creía que el traductor "can show where the treasure lies, he can guide the reader in choice of what tongue is to be studied", se refiere al traductor como "el traductor interpretativo" de la poesîa porque cuando interpretaun poema están "definitely making a new poem".
+
 ## apuntes sobre lectura de texto 1
 
 * texto: la tarea del traductor

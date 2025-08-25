@@ -18,9 +18,12 @@ el contexto
 
 el libro de judith butler, sobre el género en disputa, con una portada rosada o fucsia, por tusquets o similar.
 
-every text is eventually the expression of a political unconscious - frederic jameson
+every text is eventually the expression of a political unconscious - frederic jameson, postmodernismo
 
-facts are never just facts, objects are never just objects, concepts are never just concepts. Facts, objects and concepts acquire meaning only within a semiotic framework, a certain way of looking at the world, a certain ideology - andré lefevere
+facts are never just facts, objects are never just objects, concepts are never just concepts. Facts, objects and concepts acquire meaning only within a semiotic framework, a certain way of looking at the world, a certain ideology - andré lefevere, traducción
+
+
+
 
 ## apuntes sobre lectura de texto 1
 

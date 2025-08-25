@@ -6,9 +6,9 @@ profesora está organizando un simposio de poesía experimental en méxico.
 
 ## apuntes sobre lectura de texto 1
 
-texto: la tarea del traductor
-autor: walter benjamin
-año: 1923
+* texto: la tarea del traductor
+* autor: walter benjamin
+* año: 1923
 
 una obra de arte no se realiza para una audiencia en particular, una traducción sí.
 
@@ -22,13 +22,11 @@ la traducción busca crear un eco en otro lenguaje que se remita al lenguaje ori
 
 autores trabajan de forma natural, primitiva e intuitiva, en cambio traductores trabajan de forma derivada, ideológica y definitiva.
 
-
-
 ## apuntes sobre lectura de texto 2
 
-texto: miseria y esplendor de la traducción
-autor: josé ortega y gasset
-año: 1937
+* texto: miseria y esplendor de la traducción
+* autor: josé ortega y gasset
+* año: 1937
 
 traducir como un afán utópico.
 

@@ -4,6 +4,18 @@ lunes 25 agosto 2025
 
 profesora está organizando un simposio de poesía experimental en méxico.
 
+## reflexión sobre elementos de la traducción
+
+hay 2 textos: el texto origen y el texto meta.
+
+la interacción entre los elementos formales del texto
+
+las idiosincracias de la cultura de origen
+
+la posibilidad de respuesta en la cultura de la recepción
+
+el contexto
+
 ## apuntes sobre lectura de texto 1
 
 * texto: la tarea del traductor

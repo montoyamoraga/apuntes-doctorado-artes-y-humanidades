@@ -22,8 +22,21 @@ every text is eventually the expression of a political unconscious - frederic ja
 
 facts are never just facts, objects are never just objects, concepts are never just concepts. Facts, objects and concepts acquire meaning only within a semiotic framework, a certain way of looking at the world, a certain ideology - andré lefevere, traducción
 
+christiane nord: what is being translated?
 
+peter fawcett: what is taken into consideration and what is rejected?
 
+christiane nord: who undertakes the translation?
+
+peter fawcett: who controls the production of the translation?
+
+christiane nord: tho whom is the translation addressed?
+
+peter fawcett: who gets access to foreign material and to whom is denied?
+
+christiane nord: how is that material translated?
+
+peter fawcett: what is omitted, added or altered in order to control the message?
 
 ## apuntes sobre lectura de texto 1
 

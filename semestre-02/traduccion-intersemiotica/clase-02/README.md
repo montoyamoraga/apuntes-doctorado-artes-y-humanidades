@@ -57,6 +57,14 @@ roman jakobson: la poesîa es por definición intraducible. solamente es posible
 
 ezra poound creía que el traductor "can show where the treasure lies, he can guide the reader in choice of what tongue is to be studied", se refiere al traductor como "el traductor interpretativo" de la poesîa porque cuando interpretaun poema están "definitely making a new poem".
 
+a qué debe aspirar la traducción según Walter Benjamin? cuál es la utopía aquí?
+
+el lenguaje nos caracteriza como humanos.
+
+metáfora entre firmware y lenguaje.
+
+lo que es intraducible es lo esencial, los silencios son esenciales porque van más alla de la lengua.
+
 ## apuntes sobre lectura de texto 1
 
 * texto: la tarea del traductor

@@ -47,4 +47,3 @@ texto crítico: en el que hayan reflexiones que me hayan servido para investigac
 ojalá un texto que hayamos citado más de una vez.
 
 <https://arduinohistory.github.io/>
-

@@ -12,6 +12,12 @@ en el doctorado de estudios americanos, el reglamento estipula entre 150 y 300 p
 
 ## segunda mitad
 
+recomendaciones de felipe:
+
+- Contra la originalidad by Jonathan Lethem
+- <https://es.wikipedia.org/wiki/Severo_Sarduy>
+- <https://www.revistaanfibia.cl/autor/catalina-porzio-de-angelis/>
+
 Felipe Cussen:
 
 > trabajemos más en profundidad sobre sus respectivos artículos en formato académico y las dudas que tengan. En particular, sería ideal que traigan los primeros párrafos de la posible introducción.

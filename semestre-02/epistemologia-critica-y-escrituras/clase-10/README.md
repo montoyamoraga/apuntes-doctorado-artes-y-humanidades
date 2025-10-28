@@ -8,7 +8,7 @@ estrategias de secuencias de sampleos de material sonoro hablado
 
 el habla humana es una secuencia de sonidos. con herramientas computacionales se pueden transcribir esos sonidos a texto, no solamente la palabra, también su tiempo de aparición y desaparición, su duración, pausas, entonación, y trayectorias de frecuencias.
 
-al transcribir el habla a texto y material, se pueden disponer en distintas estrategias de secuencias. en este texto mostraremos distintas estrategias para secuenciar material sonoro, con énfasis en secuenciadores de hardware electrónicos, y proponemos nuevas formas de secuenciar material sonoro hablado.
+al transcribir el habla a texto y material, se pueden disponer en distintas estrategias de secuencias con herramientas computacionales de procesamiento natural de lenguaje (NLP). en este texto estudiaremos distintas estrategias para secuenciar material sonoro, con énfasis en secuenciadores de hardware electrónicos, y proponemos nuevas formas de secuenciar material sonoro hablado, basadas en algoritmos de procesamiento natural de lenguaje (NLP).
 
 ## tarea 2: texto escrito con citas
 

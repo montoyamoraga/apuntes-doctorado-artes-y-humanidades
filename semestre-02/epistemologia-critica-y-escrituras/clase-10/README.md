@@ -67,11 +67,17 @@ videogrep --input audios-procesados/1972-12-04.wav --search "millones de dólare
 videogrep --input audios-procesados/1973-09-11.wav --search "tengo la certeza" --search "trabajadores de mi" --search "de mi patria" --search "ha dirigido vuelve" --search "dirigido vuelve a" --search "vuelve a la" --search "a la torre" --search "la torre portales" --search "torre portales y" --search "portales y radio" --search-type "fragment" --output  1973-09-11.wav
 ```
 
+comentario de felipe:
+
+buscar la obra del profesor ricardo martínez de udp
+
+<https://ciclos.udp.cl/personas/ricardo-martinez/>
+
 ## lectura 1: Cajas (Montalbetti)
 
 precioso texto.
 
-me recuerda mucho a la matemática en el libro purgatorio de raúl zurita
+me recuerda mucho a la matemática en el libro purgatorio de raúl zurita.
 
 las promesas se usan en JavaScript para manejar asincronía.
 
@@ -89,6 +95,6 @@ tiene muchas citas explicativas.
 
 fue publicado bajo licencia creative commons.
 
-fue publicado en la revista trans - revista transcultural de música
+fue publicado en la revista trans - revista transcultural de música.
 
 <https://www.sibetrans.com/trans>

@@ -41,5 +41,5 @@ class tesis():
             "Bleep Labs"
         ]
 
-        self.agradecimientos = "TODO" 
+        self.agradecimientos = "TODO"
 ```

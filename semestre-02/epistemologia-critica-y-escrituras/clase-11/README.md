@@ -11,7 +11,7 @@ class tesis():
 
     def __init__(self):
 
-        self.agno = 2029
+        self.agno = 2028
         self.mes = 12
         self.dia = 1
 

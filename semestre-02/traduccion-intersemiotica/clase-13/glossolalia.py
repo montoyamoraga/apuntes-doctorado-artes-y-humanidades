@@ -23,13 +23,10 @@ def glossolalia(text, voice="Francisca", velocidad=200):
     os.system(command)
 
 
-# uso
-try:
-    while True:
-        silabas = [silabaAleatoria() for x in range(10)]
-        texto = ''.join(silabas)
-        print(texto)
-        velocidad = random.randint(150, 300)
-        glossolalia(texto, "Francisca", velocidad)
-except KeyboardInterrupt:
-    print("\fin de la glossolalia")
+while True:
+    silabas = [silabaAleatoria() for x in range(10)]
+    texto = ''.join(silabas)
+    print(texto)
+    velocidad = random.randint(150, 300)
+    glossolalia(texto, "Francisca", velocidad)
+

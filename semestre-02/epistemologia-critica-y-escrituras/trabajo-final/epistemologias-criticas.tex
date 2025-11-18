@@ -1,0 +1,60 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+
+% Required for inserting images
+\usepackage{graphicx} 
+
+\usepackage[utf8]{inputenc}
+\usepackage{glossaries}
+\usepackage{csquotes}
+\usepackage{parskip}
+
+%Imports biblatex package
+\usepackage{biblatex}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% import the bibliography file
+\addbibresource{investigacion.bib}
+
+\setlength{\parindent}{0pt}
+
+\title{TODO}
+\author{Aarón Montoya-Moraga}
+
+\date{diciembre 2025}
+
+\begin{document}
+
+\maketitle
+
+\renewcommand*\contentsname{Tabla de contenidos}
+
+\tableofcontents
+
+\clearpage
+
+
+\section{Introducción}
+
+Este 
+
+\clearpage
+
+\section{Conclusiones y pasos a seguir}
+
+\cite{korgBerlin}
+
+\clearpage
+
+\printbibliography[title={Bibliografía}, heading=bibintoc]
+
+\end{document}

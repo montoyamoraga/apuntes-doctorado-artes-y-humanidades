@@ -20,7 +20,7 @@ variable
 
 proceso:
 
-se crea un script en Python con un alfabeto, se crea una función que toma caracteres aleatorios del alfabeto, con ellas se arma palabras que son enviadas al comando say de macOS para ser pronunciadas en voz alta con velocidad aleatoria.
+se crea un script en Python con un alfabeto, se crea una función que toma caracteres aleatorios del alfabeto, con ellas se arma palabras que son enviadas al comando `say` de macOS para ser pronunciadas en voz alta con velocidad aleatoria.
 
 montaje:
 
@@ -36,7 +36,7 @@ dimensiones:
 
 proceso:
 
-biblioteca de Python para generación de poemas, que contiene funciones para verisificar, mayuscular aleatoriamente, entrecomillar, entre otras.
+biblioteca de Python para generación de poemas, que contiene funciones para versificar, mayuscular aleatoriamente, entrecomillar, entre otras.
 
 está disponible en PyPI <https://pypi.org/project/poemar/>
 
@@ -44,11 +44,17 @@ está disponible en PyPI <https://pypi.org/project/poemar/>
 
 título:
 
+estudios sobre la cuenta pública de chile 2025
+
 técnica:
+
+macbook, yt-dlp, videogrep, vosk
 
 dimensiones:
 
 proceso:
+
+descarga del video de la cuenta pública con la herra
 
 traducir desde el video la cuenta pública a silencios, a patria, a patriotas.
 
@@ -56,12 +62,16 @@ traducir desde el video la cuenta pública a silencios, a patria, a patriotas.
 
 título:
 
+adelanto de allender
+
 técnica:
+
+macbook, yt-dlp, videogrep, vosk
 
 dimensiones:
 
-proceso:
+audio, 1 canal
 
-obra en progreso para el doctorado, de vocabulario de allende.
+proceso:
 
 un sampler que contiene fragmentos de audio de discursos de salvador allende.

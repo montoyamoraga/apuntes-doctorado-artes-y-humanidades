@@ -29,4 +29,3 @@ while True:
     print(texto)
     velocidad = random.randint(150, 300)
     glossolalia(texto, "Francisca", velocidad)
-

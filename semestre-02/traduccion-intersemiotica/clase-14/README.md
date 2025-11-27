@@ -4,11 +4,7 @@ lunes 24 noviembre 2025
 
 ## fichas técnicas de las obras
 
-### 1
-
-título:
-
-glossolalia.py
+### 1: glossolalia.py
 
 técnica:
 
@@ -26,11 +22,7 @@ montaje:
 
 computador macbook conectado a HDMI y proyector de la sala, y parlante Bluetooth. computador muestra la consola en blanco y negro, mientras corre el script.
 
-### 2
-
-título:
-
-poemar.py
+### 2: poemar.py
 
 técnica:
 
@@ -44,11 +36,7 @@ proceso:
 
 se crea una biblioteca llamada poemar en el lenguaje python 3, donde se incluyen distintas funciones para procesar y modificar texto. las funciones incluyen versificar, mayuscular aleatoriamente, comificar aleatoriamente entrecomillación de versos, entre otras. biblioteca disponible en PyPI <https://pypi.org/project/poemar/>
 
-### 3
-
-título:
-
-resúmenes de la cuenta pública del gobierno de chile 2025
+### 3: resúmenes de la cuenta pública del gobierno de chile 2025
 
 técnica:
 
@@ -62,9 +50,7 @@ proceso:
 
 se usa la herramienta yt-dlp para descargar el video de la cuenta pública del gobierno de chile 2025, disponible en <https://www.youtube.com/watch?v=0jvdgypOnF8>. se transcribe con la herramienta vosk, luego se troza y resume de distintas formas con la herramienta videogrep. se presentan resúmenes de todos los silencios, todas las menciones a patria, a chile, a sí, a no.
 
-título:
-
-allender - proceso
+### 4: allender - proceso
 
 técnica:
 

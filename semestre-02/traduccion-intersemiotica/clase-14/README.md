@@ -44,7 +44,7 @@ proceso:
 
 se crea una biblioteca llamada poemar en el lenguaje python 3, donde se incluyen distintas funciones para procesar y modificar texto. las funciones incluyen versificar, mayuscular aleatoriamente, comificar aleatoriamente entrecomillación de versos, entre otras. biblioteca disponible en PyPI <https://pypi.org/project/poemar/>
 
-### 3 estudios sobre la cuenta pública (2025)
+### 3
 
 título:
 
@@ -62,11 +62,9 @@ proceso:
 
 se usa la herramienta yt-dlp para descargar el video de la cuenta pública del gobierno de chile 2025, disponible en <https://www.youtube.com/watch?v=0jvdgypOnF8>. se transcribe con la herramienta vosk, luego se troza y resume de distintas formas con la herramienta videogrep. se presentan resúmenes de todos los silencios, todas las menciones a patria, a chile, a sí, a no.
 
-### 4 allender (2025)
-
 título:
 
-allender - un adelanto
+allender - proceso
 
 técnica:
 

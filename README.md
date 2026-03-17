@@ -15,6 +15,7 @@ estos son mis apuntes durante los estudios de Doctorado en Artes y Humanidades, 
   - [cosmopoliticas-amerindias](./semestre-02/cosmopoliticas-amerindias): cosmopolíticas amerindias
   - [traduccion-intersemiotica](./semestre-02/traduccion-intersemiotica): traducción intersemiótica
 - [semestre-03](./semestre-03/)
+  - [./semestre-03/seminario-de-investigacion-y-creacion](./semestre-03/seminario-de-investigacion-y-creacion): seminario de investigación y creación
 - [semestre-04](./semestre-04/)
 - [semestre-05](./semestre-05/)
 - [semestre-06](./semestre-06/)
@@ -31,8 +32,8 @@ estos son mis apuntes durante los estudios de Doctorado en Artes y Humanidades, 
 | 2025 | 02       | 49829  | epistemología crítica y escrituras                      | felipe cussen                        |
 | 2025 | 02       | 49830  | laboratorio 3: cosmopolíticas amerindias                | gloria baigoterregui, valentina bulo |
 | 2025 | 02       | 49831  | laboratorio 4: traducción intersemiótica                | jèssica pujol                        |
-| 2026 | 01       | TODO   | seminario de investigación y creación                   | TODO                                 |
-| 2026 | 01       | TODO   | electivo 1                                              | TODO                                 |
+| 2026 | 01       | TODO   | seminario de investigación y creación                   | cynthia shuffer                      |
+| 2026 | 01       | TODO   | electivo 1                                              | josé santos                          |
 | 2026 | 02       | TODO   | proyecto de tesis                                       | TODO                                 |
 | 2026 | 02       | TODO   | electivo 2                                              | TODO                                 |
 

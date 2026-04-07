@@ -13,3 +13,11 @@ el enmascaramiento como insilio
 saturación de los sentidos
 
 steve bannon
+
+diferencia entre víctima y testigo
+
+la venda sexy
+
+tehching hsieh
+
+cómo representar la tortura sin ser escabroso

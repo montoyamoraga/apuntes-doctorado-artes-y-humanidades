@@ -31,3 +31,9 @@ cómo expandir un inventariado en un marco teórico
 decantar los verbos en una metodología
 
 pregunta abierta sobre la visualidad de las redes y las relaciones tratadas.
+
+yo pienso en diagramas, no en bloques
+
+allison parrish
+
+arder para trascender

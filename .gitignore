@@ -14,6 +14,10 @@
 *.run.xml
 *synctex.gz
 *.toc
+*.glg
+*.glo
+*.gls
+*.ist
 
 ## Python cache
 __pycache__/

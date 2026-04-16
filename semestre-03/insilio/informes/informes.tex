@@ -1,0 +1,81 @@
+\documentclass[10pt, openany]{book}
+
+\usepackage{xcolor}
+
+\definecolor{linkgray}{gray}{0.3}
+
+\usepackage[
+  colorlinks=true,
+  linkcolor=linkgray,
+  citecolor=linkgray,
+  urlcolor=linkgray
+]{hyperref}
+
+\usepackage{glossaries}
+\makeglossaries
+\setglossarystyle{altlist}
+
+\usepackage[paperwidth=148mm, paperheight=210mm, margin=1.5cm]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage{noto}
+
+\usepackage{graphicx}
+\graphicspath{imagenes/}
+
+\usepackage{float}
+\usepackage{placeins}
+
+\usepackage{subfiles}
+\usepackage{parskip}
+
+% IMPORTANT: babel before tikz/pgfplots
+\usepackage[spanish, es-noshorthands]{babel}
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows}
+\usetikzlibrary{calc, positioning}
+\usetikzlibrary{backgrounds}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\input{glosario}
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	% {\LARGE \textsc{Universidad de Santiago de Chile}\par}
+	\vspace{1cm}
+	% {\Large \textsc{Instituto de Estudios Avanzados}\par}
+	\vspace{1.5cm}
+    \vfill
+	{\huge\bfseries Insilio\par}
+	{\large\bfseries Informes de lectura\par}
+	\vspace{2cm}
+	{\Large Aarón Montoya Moraga\par}
+    \vfill
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\chapter{Informes}
+
+\subfile{informe-01}
+\subfile{informe-02}
+\subfile{informe-03}
+\subfile{informe-04}
+\subfile{informe-05}
+\subfile{informe-06}
+\subfile{informe-07}
+\subfile{informe-08}
+\subfile{informe-09}
+\subfile{informe-10}
+
+\printglossaries
+
+\end{document}

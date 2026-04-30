@@ -1,3 +1,3 @@
-# clase-01
+# clase-06
 
-fecha
+jueves 23 abril 2026

@@ -1,0 +1,69 @@
+name: compilar y subir PDFs
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: compilar PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: semestre-03/insilio/informes/informes.pdf
+          args: -pdf -interaction=nonstopmode -jobname=proyecto
+
+      - name: preparar sitio
+        run: |
+          mkdir site
+          cp proyecto.pdf site/proyecto.pdf
+
+          cat > site/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>montoyamoraga - informes insilio</title>
+            <style>
+              body { font-family: sans-serif; margin: 0; }
+              iframe { width: 100%; height: 100vh; border: none; }
+            </style>
+          </head>
+          <body>
+            <iframe id="viewer" src="proyecto.pdf"></iframe>
+
+            <script>
+              function loadPDF(file) {
+                document.getElementById('viewer').src = file;
+              }
+            </script>
+          </body>
+          </html>
+          EOF
+
+      - name: upload artifact for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -21,13 +21,17 @@
   urlcolor=linkgray
 ]{hyperref}
 
+% para que solamente aparezca el nombre del capitulo
+% sin que aparezca capitulo X antes enorme
 \usepackage{titlesec}
-
 \titleformat{\chapter}
 {\huge\bfseries}
 {}
 {0pt}
 {}
+
+% menos espacio despues del nombre del capitulo
+\titlespacing*{\chapter}{0pt}{0pt}{0.25em}
 
 \usepackage{glossaries}
 \makeglossaries

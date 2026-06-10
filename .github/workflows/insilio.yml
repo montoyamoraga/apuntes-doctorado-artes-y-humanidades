@@ -21,12 +21,12 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: semestre-03/insilio/informes/informes.tex
-          args: -pdf -interaction=nonstopmode -jobname=proyecto
+          args: -pdf -interaction=nonstopmode -jobname=informes
 
       - name: preparar sitio
         run: |
           mkdir site
-          cp proyecto.pdf site/proyecto.pdf
+          cp informes.pdf site/informes.pdf
 
           cat > site/index.html << 'EOF'
           <!DOCTYPE html>
@@ -40,7 +40,7 @@ jobs:
             </style>
           </head>
           <body>
-            <iframe id="viewer" src="proyecto.pdf"></iframe>
+            <iframe id="viewer" src="informes.pdf"></iframe>
 
             <script>
               function loadPDF(file) {

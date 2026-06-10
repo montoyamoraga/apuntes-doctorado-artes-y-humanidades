@@ -1,11 +1,14 @@
-\documentclass[10pt, openany]{book}
+\documentclass[10pt, openany]{report}
 
 \usepackage{xcolor}
 
 \definecolor{linkgray}{gray}{0.3}
 
 \usepackage{csquotes}
-\usepackage{biblatex}
+\usepackage[
+    style=apa,
+    backend=biber]
+    {biblatex}
 \addbibresource{bibliografia.bib}
 
 \usepackage[
@@ -67,11 +70,15 @@
 
 \newpage
 
-Este informe está hecho con \gls{latex}.
+\chapter{Herramientas}
+
+Este informe está hecho con \gls{latex}, y mantenido con control de versiones con la herramienta git, y vive en el repositorio de apuntes de doctorado en artes y humanidades.
 
 \newpage
 
 \chapter{Informes}
+
+\newpage
 
 \subfile{informe-01}
 \subfile{informe-02}

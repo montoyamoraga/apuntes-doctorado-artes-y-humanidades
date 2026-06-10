@@ -20,7 +20,7 @@ jobs:
       - name: compilar PDF
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: semestre-03/insilio/informes/informes.pdf
+          root_file: semestre-03/insilio/informes/informes.tex
           args: -pdf -interaction=nonstopmode -jobname=proyecto
 
       - name: preparar sitio

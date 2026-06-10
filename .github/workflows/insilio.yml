@@ -3,6 +3,8 @@ name: compilar y subir PDFs
 on:
   push:
     branches: [main]
+    paths:
+      - 'semestre-03/insilio/informes/**'
 
 permissions:
   contents: read

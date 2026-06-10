@@ -2,12 +2,13 @@
 
 jueves 30 abril 2026
 
+overload
+
 sobrecarga de operadores
 
 el signo + en números enteros
 
 ```cpp
-
 int x = 5;
 int y = 10;
 
@@ -74,3 +75,34 @@ los terminales positivos y negativos de la alimentación son llamados rieles, y 
 el insilio no ocurre en sí mismo, es contextual.
 
 que te declaren autista como un exilio, la experiencia neurodivergente como un insilio?
+
+eric housman
+naciones nacionalismos
+las naciones son imaginadas
+
+las formas de habitar el territorio son alucinadas
+son impuestos y opresores
+
+carolina me pide:
+
+fenomenología sobre neurodivergencia, no pertenencia, metáforas de mi mundo electrónico y computacional. en esas metáforas puedo encontrar mi experiencia.
+
+fenomenología entendiéndolo como experiencia vivida.
+
+cristián me dice en vez de metáforas, analogías.
+
+por ejemplo el circuito, es un camino, están juntos, se recorren en cierto sentido.
+
+giles deleuze y metáforas cibernéticas y circuitales.
+
+desgaste de los elementos, lo circuital como la muerte.
+
+en lo insiliar está la muerte, porque no se puede salir del circuito.
+
+tono del texto: testimonios de los insilios, trabajar el tono en las diferencias y similutdes.
+
+fernanda difiere:
+
+hay una posibilidad de metáfora, con el arroje necesario se puede llevar a un lugar transdisciplinar.
+
+unir en donna haraway.
